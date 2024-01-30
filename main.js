@@ -47,3 +47,5 @@ salida.innerHTML += `<p>${articulo4.nombre}: ${articulo4.precio} ${articulo4.Sub
 salida.innerHTML += `<p> SubTotalArt: ${factura.acumSubArt}</p>`;
 salida.innerHTML += `<p> Iva: ${factura.Iva()}</p>`;
 salida.innerHTML += `<p> TotalFact: ${factura.TotalFact()}`;
+
+//56546
