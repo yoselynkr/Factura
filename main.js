@@ -40,8 +40,8 @@ factura.Procesar(articulo3);
 factura.Procesar(articulo4);
 
 let salida = document.getElementById("salida");
-salida.innerHTML += `<p>${articulo1.nombre}: ${articulo1.precio} ${articulo1.SubTotalArt()}`;
-salida.innerHTML += `<p>${articulo2.nombre}: ${articulo2.precio} ${articulo2.SubTotalArt()}`;
+salida.innerHTML += `<p>${articulo1.nombre}: cantidad: 3* ${articulo1.precio} subtotal= ${articulo1.SubTotalArt()}`;
+salida.innerHTML += `<p>${articulo2.nombre}:cantidad: 2* ${articulo2.precio} subtotal= ${articulo2.SubTotalArt()}`;
 salida.innerHTML += `<p>${articulo3.nombre}: ${articulo3.precio} ${articulo3.SubTotalArt()}`;
 salida.innerHTML += `<p>${articulo4.nombre}: ${articulo4.precio} ${articulo4.SubTotalArt()}`;
 salida.innerHTML += `<p> SubTotalArt: ${factura.acumSubArt}</p>`;
